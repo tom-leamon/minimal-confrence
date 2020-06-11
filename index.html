@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WebRTC Video Conferencing</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+
+    <meta name="title" content="Minimal Video Conferencing" />
+    <meta name="description" content="Video Conferencing using WebRTC." />
+
+    <script src='https://cdn.jsdelivr.net/npm/rtc-lib@0.5.4/dist/bundle/rtc.dep.min.js'></script>
+    <script defer src='./script.js'></script>
+  </head>
+
+  <body>
+    <div>
+      <input placeholder="Room name" id="room_name">
+      <button id='joinButton'>Connect</button>
+    </div>
+
+    <div id='self'></div>
+
+    <div id="peers"></div>
+
+  </body>
+</html>
